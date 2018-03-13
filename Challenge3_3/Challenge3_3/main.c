@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
     
     for(int i = 0; i < 5; i++){
         
-        int a = rand() % 100; // 랜덤한 수를 100으로 나눈 나머지 값 (a는 무조건 0~99의 수)
+        int a = rand() % 100; // 랜덤한 수를 100으로 나눈 나머지 값 (a는 무조건 0~99의 정수)
         printf("난수 출력 : %d\n", a);
     }
     
